@@ -1,0 +1,577 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+/* HTML & Body */
+
+html {
+    background: url("../img/homepagebg.jpg");
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+body {
+    background-color: #e9e9e9;
+    background-color: rgba(255,255,255,0.8);
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px auto;
+    padding: 10px;
+    width: 980px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+a:link,
+a:visited {
+    color: #FF9600;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Main header */
+
+.site-header {
+    background-color: #e9e9e9;
+    background-color: rgba(255,255,255,0.0);
+    color: black;
+    font-family: Poiret One, serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: -12px;
+    border-radius: 16px;
+    margin-bottom: 3px;
+    text-align: center;
+    overflow: auto;
+}
+.site-logo {
+    width: 85px;
+    float: left;
+}
+.site-title {
+    font-size: 28px;
+    display: block;
+    overflow: auto;
+}
+.site-slogan {
+    font-size: 20px;
+    display: block;
+    font-style: italic;
+    overflow: auto;
+}
+.style-dropdown {
+    float: right;
+}
+
+/* Nav */
+
+.site-nav {
+    background-color: #025C96;
+    color: #999;
+    text-align: left;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin: -10px;
+}
+.site-nav li {
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+.site-nav a:link,
+.site-nav a:visited {
+    color: #FFF;
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.site-nav a:hover {
+    background-color: #FF9600;
+}
+.selected {
+    background-color: #FF9600;
+}
+.multi-nav {
+    background-color: #999999;
+    color: #999;
+    text-align: left;
+    font-weight: bold;
+    padding: 1px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 10px;
+}
+.multi-nav li {
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+.multi-nav a:link,
+.multi-nav a:visited {
+    color: #FFF;
+    padding: 6px;
+    text-decoration: none;
+}
+.multi-nav a:hover {
+    background-color: #025C96;
+}
+.active-multi {
+    background-color: #025C96;
+}
+
+/* Aside */
+
+aside {
+    float: left;
+    padding: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 25%;
+}
+aside li {
+    list-style: none;
+    padding: 8px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+aside a {
+    display: block;
+}
+aside a:link,
+aside a:visited {
+    color: #000;
+}
+aside li:hover {
+    background-color: #025C96;
+}
+aside li:hover a:link,
+aside li:hover a:visited {
+    color: #FFF;
+}
+aside a:hover {
+    color: #FFF;
+}
+.active {
+    background-color: #025C96;
+}
+.active a:link,
+.active a:visited {
+    color: #FFF;
+}
+
+/* Main */
+
+main {
+    margin-bottom: -20px;
+    min-height: 30em;
+}
+.multi {
+    max-width: 70%;
+    float: right;
+}
+.stylechooser {
+    width: 70%;
+    float: right;
+}
+
+/* Jetty */
+
+.jetty {
+    width: 70%;
+    float: right;
+}
+.jetty table td {
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid black;
+}
+.jetty table tr {
+    font-size: 14px;
+}
+
+/* Search */
+
+.search {
+    margin: 20px;
+    text-align: center;
+}
+.fig-search {
+    padding-top: 50px;
+}
+.search input[type=search] {
+    height: 40px;
+    width: 500px;
+    font-size: 26px;
+}
+.search input[type=submit] {
+    padding: 10px;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-image: none;
+}
+.search table {
+    margin: auto;
+    width: 90%;
+}
+.search table th {
+    background-color: #025C96;
+    color: #FFF;
+}
+
+/* Admin */
+
+.admin {
+    width: 70%;
+    float: right;
+}
+.admin table td {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+.admin table tr {
+    font-size: 14px;
+    padding: 10px;
+}
+.admin table th {
+    background-color: #025C96;
+    color: #FFF;
+    padding: 10px;
+}
+.admin a:link,
+.admin a:visited {
+    color: #025C96;
+}
+.admin a:hover {
+    text-decoration: underline;
+}
+
+/* Article */
+
+article {
+    padding: 20px;
+}
+article header h1 {
+    border-bottom: 1px solid black;
+}
+.author {
+    font-size: 10px;
+    font-style: italic;
+    margin-top: -10px;
+}
+.report-text {
+    font-weight: bold;
+}
+
+/* Images */
+
+.me {
+    width: 75px;
+    box-shadow: 3px 3px 3px #888;
+}
+.hoganas {
+    width: 250px;
+}
+.hoganas-figure {
+    float: right;
+    padding: 10px;
+    text-align: center;
+}
+.hoganas-desc {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: -1px;
+}
+.old-me {
+    width: 167px;
+}
+.old-figure {
+    float: right;
+    padding: 10px;
+    text-align: center;
+    margin-right: -20px;
+}
+.old-desc {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: -1px;
+}
+
+/* Byline */
+
+.byline-table {
+    padding: 12px;
+    width: 100%;
+    border-top: 1px dashed grey;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.byline-text {
+    font-size: 14px;
+    font-style: italic;
+}
+.byline-me {
+    padding-right: 20px;
+}
+
+/* Footer */
+
+footer {
+    color: #000;
+    font-size: 10px;
+    clear: both;
+    margin: -10px;
+}
+.site-footer {
+    border-top: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Test */
+
+@keyframes blink {
+    0% {
+        background: violet;
+  }
+    14.3% {
+        background: indigo;
+  }
+    28.6% {
+        background: blue;
+  }
+    42.9% {
+        background: green;
+  }
+    57.2% {
+        background: yellow;
+  }
+    71.5% {
+        background: orange;
+  }
+    85.8% {
+        background: red;
+  }
+    100% {
+        background: violet;
+  }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        background: violet;
+  }
+    14.3% {
+        background: indigo;
+  }
+    28.6% {
+        background: blue;
+  }
+    42.9% {
+        background: green;
+  }
+    57.2% {
+        background: yellow;
+  }
+    71.5% {
+        background: orange;
+  }
+    85.8% {
+        background: red;
+  }
+    100% {
+        background: violet;
+  }
+}
+
+.cssanim {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    animation: blink 20s linear infinite;
+    -webkit-animation: blink 20s linear infinite;
+    -moz-animation: blink 20s linear infinite;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+    body {
+        width: auto;
+        border-radius: 1px;
+    }
+    .site-header {
+        border-radius: 1px;
+    }
+    .site-title {
+        font-size: 24px;
+    }
+    .site-slogan {
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .hoganas-figure {
+        display: none;
+    }
+    .old-figure {
+        display: none;
+    }
+    .site-nav li {
+        font-size: 14px;
+    }
+    .multi-nav li {
+        font-size: 14px;
+    }
+    .admin table td {
+        font-size: 10px;
+        padding: 1px;
+    }
+    .admin table tr {
+        font-size: 10px;
+        padding: 1px;
+    }
+    .admin table th {
+        padding: 1px;
+    }
+}
+@media (max-width: 640px) {
+    .site-nav li {
+        font-size: 12px;
+    }
+    .multi-nav li {
+        font-size: 12px;
+    }
+    aside li {
+        font-size: 12px;
+        width: 100%;
+        overflow: hidden;
+    }
+    aside {
+        width: 25%;
+        margin-right: 5px;
+    }
+}
+@media (max-width: 540px) {
+    .site-logo {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        width: 20%;
+    }
+    .site-nav li {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        margin-left: -10%;
+    }
+    .multi-nav li {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    .style-dropdown {
+        display: block;
+        float: none;
+        margin: 10px;
+    }
+    .fig-search {
+        display: none;
+    }
+    .search input[type=search] {
+        height: 30px;
+        width: 90%;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .search input[type=submit] {
+        font-size: 12px;
+    }
+    .search table {
+        margin: auto;
+        width: 90%;
+        font-size: 10px;
+    }
+    .admin table {
+        margin: auto;
+        width: 90%;
+    }
+}
+@media (max-width: 480px) {
+    .site-nav li {
+        margin-left: -20%;
+    }
+    .multi-nav li {
+        margin-left: -20%;
+    }
+    aside li {
+        font-size: 10px;
+        text-align: center;
+    }
+    aside {
+        margin-left: -15%;
+        float: none;
+        width: 100%;
+    }
+    .stylechooser {
+        float: none;
+        margin: auto;
+        text-align: center;
+    }
+    .multi {
+        display: block;
+        float: none;
+        width: 100%;
+        margin-left: 15%;
+        text-align: center;
+    }
+    .admin {
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .jetty {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+    .byline-me {
+        display: none;
+    }
+    .site-title {
+        font-size: 20px;
+    }
+    .site-slogan {
+        font-size: 10px;
+    }
+    article p {
+        font-size: 14px;
+    }
+    article h1 {
+        font-size: 18px;
+    }
+    article h2 {
+        font-size: 16px;
+    }
+    .report-text {
+        font-size: 14px;
+    }
+    .byline-text {
+        font-size: 12px;
+    }
+    footer span, p, a {
+        font-size: 12px;
+    }
+    .search table {
+        margin-left: -17%;
+    }
+    .admin table {
+        margin-left: -17%;
+    }
+}

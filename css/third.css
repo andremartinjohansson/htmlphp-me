@@ -1,0 +1,115 @@
+/* Import css from default file */
+
+@import "style.css";
+
+/* HTML & Body */
+
+html {
+    background: none;
+    background-color: #E9E9E9;
+}
+body {
+    background-color: #E9E9E9;
+    color: #333333;
+}
+a:link,
+a:visited {
+    color: #BCBCBC;
+}
+a:hover {
+    color: #FF9600;
+}
+
+/* Main Header */
+
+.site-header {
+    background: none;
+    background-color: #333333;
+    color: #FFF;
+}
+.site-logo {
+    display: none;
+}
+
+/* Nav */
+
+.site-nav {
+    background-color: #333333;
+    overflow: hidden;
+    border: 1px solid #FF9600;
+}
+.site-nav li {
+    margin-left: -5px;
+}
+.site-nav a:link,
+.site-nav a:visited {
+    padding: 22px;
+    border-radius: 1px;
+}
+.site-nav a:hover {
+    background-color: #222222;
+    border: 1px solid #FF9600;
+}
+.selected {
+    background-color: #222222;
+    border: 1px solid #FF9600;
+}
+.multi-nav {
+    background-color: #555555;
+}
+.multi-nav a:hover {
+    background-color: #FF9600;
+}
+.active-multi {
+    background-color: #FF9600;
+}
+
+/* Aside */
+
+aside li:hover {
+    background-color: #BCBCBC;
+}
+aside a:hover {
+    color: #000;
+}
+aside li:hover a:link,
+aside li:hover a:visited {
+    color: #000;
+}
+.active {
+    background-color: #BCBCBC;
+}
+.active a:link,
+.active a:visited {
+    color: #000;
+}
+
+/* Byline */
+
+.byline-table {
+    background-color: #e9e9e9;
+    color: #333333;
+    font-weight: normal;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333333;
+    color: #e9e9e9;
+}
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+    .site-nav a:link,
+    .site-nav a:visited {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 540px) {
+    .site-nav li {
+        margin-left: -40px;
+    }
+}

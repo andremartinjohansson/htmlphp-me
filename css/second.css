@@ -1,0 +1,55 @@
+/* Import css from default file */
+
+@import "style.css";
+
+/* HTML & Body */
+
+html {
+    background: none;
+    background-color: #7FC5FF;
+}
+body {
+    background-color: #FFF;
+}
+
+/* Main Header */
+
+.site-header {
+    background: url("../img/space.jpg") no-repeat center;
+    background-color: #369;
+    color: #FFF;
+}
+.site-logo {
+    width: 125px;
+}
+
+/* Nav */
+
+.site-nav {
+    background-color: #369;
+}
+.multi-nav a:hover {
+    background-color: #369;
+}
+.active-multi {
+    background-color: #369;
+}
+
+/* Aside */
+
+aside li:hover {
+    background-color: #369;
+}
+.active {
+    background-color: #369;
+    color: #FFF;
+}
+
+/* Media Queries */
+
+@media (max-width: 540px) {
+    .site-header {
+        background: none;
+        background-color: #369
+    }
+}
